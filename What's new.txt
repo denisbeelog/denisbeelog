@@ -1,0 +1,51 @@
+Ce qui a changé dans la version 12.9 actualisée aujourd'hui le 2 septembre 2020 sur ce site web, consacrée à denis-draw : What's New
+
+Ajout d'une palette qui s'incruste dans un des panneaux avec des fonctions parmi les plus utiles ouvrir copier coller...,
+Cette palette sait reconnaître le clic droit de la souris dans certains cas et indique si c'est bien une image bitmap qui est située dans le presse-papier.
+Amélioration de l'export SVG (scalable Vector Graphics) d'inkscape par exemple mais aussi illustrator des images qui sont tramées
+Cette version 12, utilise des boîtes de dialogue Non Modal (Bloquante) dans le menu attributs ainsi que dans le menu placer.
+Comme vous pouvez le constater les boutons OK et annuler ont disparus et une petite bulle d'aide remplace le bouton aide.
+Ces boîtes de dialogues se souviennent de leurs positions d'une cession d'ouverture à l'autre et leurs visibilités est aussi enregistrées dans la base de registre.
+Réagencement du menu fichier en plusieurs sections et réouvrir un fichier récent s'affiche sous l'entrée ouvrir un fichier...
+Le menu sélection fait aussi son apparition dans le menu principal, avec les fonctions comme tout sélectionner par exemple pratique.
+Re-design de la palette des calques du ruban, qui s'actualise et s'agrandit en fonction de la taille des libellés (les noms des calques).
+Affichage d'un écran d'ouverture violet qui peut être désactivé, avec des options nouveaux, ouvrir, coller l'image dans le presse papier et affiche aussi si un paramètre dans la ligne de commande est reconnaissable.
+Ainsi que les noms des derniers fichiers utilisés et la taille en octet de ces fichiers ainsi que la date de ces fichiers (les X-Files).
+Des goulottes qui permettent de dimensionner individuellement la largeur de chaque panneau avec la souris ou dans une boîte de dialogue (menu panneau).
+La taille de la typographie du ruban contextuelle, peut être redéfinie en majuscule où en minuscule en cliquant avec le bouton droit dans l'intitulé en bas du panneau des éléments.
+La possibilité dans les cotations de définir une côte de référence et sa mesure pour que les autres cotations s'ajustent en fonction de celle-ci (en temps réel).
+Le dessin de tangentes sur les courbes de Béziers qui sont aussi personnalisables (couleur, style) dans le dialogue des cotations, s'affiche en temps réel.
+La reconnaissance aussi des fichiers au format WebP, en lecture ou en écriture, ainsi que le format Tiff en écriture.
+Les styles de ligne du module d'importation des fichiers Dxf, d'AutocadTM sont aussi reconnus.
+Attribution dans le dialogue des styles de lignes d'une épaisseur de tracé en centième de millimétre.
+Interprétation différente au lancement de denis draw pour afficher la locution commande si le parseur détecte un paramètre.
+Quelques fonctions de plus dans le menu-panneau, agrémentées d'un menu popup surgissant, :
+  coller spécial, coller une bitmap, coller un texte, zoom selon quatre nouvelles possibilités.
+Reconnaissance dans les fichiers Dxf de ces dénominations de style de ligne, Réinterprétation ds denis-draw, ds signifie "dans" en sténo.
+Interprétation différente au lancement de denis draw pour afficher la locution commande si le parsur détecte un paramètre, lecture des WebP.
+Lecture et décodage de la ligne de commande avec cet intitulé «Commande» pour ouvrir le fichier indiqué par le premier paramètre depuis l'écran d’accueil violet (Cf : %1).
+Modificaton de mon interpreteur DXF pour lire le fomat Dxf généré par Ki-cad 
+  et de donner la bonne couleur selon le code 62, du code du layer 8, Affichage du style de ligne dans le dialogue suivant cette fonction.
+
+Ce qui a changé dans la version 15.5 actualisée aujourd'hui le 15.1.2023 :
+
+  Écriture du flux au format Bionic en binaire pour que la lecture et l'écriture des fichiers natifs de denis -Draw soit 12 fois plus rapide et incorpore les images Bitmaps systématiquement.
+  Affichage de la prévisualisation des fichiers au format Bionic dans la fenêtre principale car c'est immédiat.  
+  La possibilité d'écrire et de lire depuis les fonction ouvrir ou enregistrer plus de formats différents comme si on utilisait le menu Exporter.
+  De nombreuses améliorations au code dont la facilité d'utiliser un mode de tracé itératif pour calculer des suites de segments consécutif avec un pointeur sur ces coordonnées.
+  Des fonctions supplémentaires dans le menu attributs des trames et dans le ruban une fonction mouchetage.
+  Une grille découpée en carreau ayant quatre divisions indiquées par des traits gris très clair ou pas qui se colore différament selon l'état de la case N/B (Noir ou Blanc).
+  Des outils supplémentaires s'affichent aussi en bas de la palette Werks pour dessiner des organigrammes ainsi qu'une flèche orientable et ajustable.
+  Des touches de couleurs, quatre selon quatre positions permettent aussi de dessiner des ordinogrammes en ajoutant des symboles quand on clic avec la touche gauche de la souris sur une de ces pastilles vertes.
+  Dans le menu édition la fonction conservée la sélection efface tous les autres éléments différents de la sélection active quelque soit sa composition et le nombre d'élements sélectionné.
+  Dans le menu édition à nouveau le sous-menu copier spécial qui permet bien plus de fonction que d'habitude dans ce menu.
+  Le lancement initial de denis draw avec un menu réduit pour qu'il semble facile à utiliser puis avec le menu système le menu complet peut être affiché : un logiciel qui devient à complexité croissante.
+  Le mode Dark Screen ou mode sombre des boîtes de dialogues s'adapte avec une visualisation des boutons radios et des cases à cocher différentes de Windows et n comportement qui ressemble à Android.
+  Le passage dans le presse-papier de données vectorielles plutôt que des images pixelisées en bitmap uniquement pour placer dans Open-Office vos dessins et représentations car O-Office sait avec la fonction coller spécial reconnaître ce format vectoriel et l'indique.
+  La sortie vectorielle au format exportable vers Inkscape le format XAML qui peut aussi être convertie avec d'autre format vectoriel avec la touche WEBP si l'on clic avec le bouton droit de la souris sur ce Mot du ruban dynamique.
+  Obtenir dans le menu Pixelisée une séparation quadrichromique avec la fonction Andy WarHoll ou des nuages de croix qui peuvent être coloriées avec la fonction Remplacer les points par des motifs en forme points de croix et les fonctions du menu afficher des croix.
+  Une énorme amélioration de la sortie vers le Ray-Tracer Persistence of Vision dans un script Ascii au format *.pov vers ce logiciel de rendu et de tracé que vous pouvez paramétrer vous même en lisible depuis l'éditeur de PovRay pour ajouter ces effets de texturage ou de colorisation propre à ce programme.
+  
+Merci d'utiliser Denis Draw son concepteur et programmeur, écrit par Denis B.
+
+  
