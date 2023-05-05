@@ -26,4 +26,4 @@ Denis draw ne s'est pas toujours appelé comme ceci, et quand il a été publié
 
 Avec Denis-Draw il serait possible de piloter une machine de découpe d'adhésifs, mais je n'en dispose pas pour essayer. Pouvez vous me dire si cela fonctionne par courriel par exemple, les mesures du document et des éléments à découper devrait être respectées.
 
-http://denisdraw.fr
+www.denisdraw.com
